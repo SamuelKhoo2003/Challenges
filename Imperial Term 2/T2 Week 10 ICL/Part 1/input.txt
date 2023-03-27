@@ -1,0 +1,9 @@
+melon 5
+melon 1
+melon 2
+apple 5
+apple 10
+strawberry 3
+pear 20
+pear 12
+pear 2

@@ -1,0 +1,25 @@
+#include <iostream>
+#include <vector>
+ 
+int main(){
+ 
+    std::vector<int> numbers;
+ 
+    numbers.push_back(1);
+    numbers.push_back(2);
+    numbers.push_back(3); 
+
+    std::vector<int>::iterator it;
+    // we declare it as being of type "iterator on a list of int"
+    // this may look a bit confusing but std::list<int>::iterator is just a type
+ 
+    // iterators are not pointers but a sort of conceptual generalisation 
+    // so the operations we do on iterators have similarities with pointers
+ 
+    it = numbers.begin();
+    // we set iterator it to the beginning of the list
+    while (it != numbers.end()){
+        std::cout << *it << std::endl; 
+        ++it; 
+    }
+}

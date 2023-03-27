@@ -1,0 +1,4 @@
+melon 8
+apple 15
+strawberry 3
+pear 34
