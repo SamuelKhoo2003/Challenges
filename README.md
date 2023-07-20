@@ -1,2 +1,2 @@
 # Challenges
-Challenges I've completed or currently working on 
+Coding related activities completed in my first year of Imperial College London 
